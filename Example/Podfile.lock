@@ -1,0 +1,16 @@
+PODS:
+  - SKAlertView (0.1.0)
+
+DEPENDENCIES:
+  - SKAlertView (from `../`)
+
+EXTERNAL SOURCES:
+  SKAlertView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SKAlertView: 77592e57e1c723075637f896b2bc690609987a40
+
+PODFILE CHECKSUM: b8dabcddcd26ae8b4e4f8cbac8b3be6d12b91599
+
+COCOAPODS: 1.11.2

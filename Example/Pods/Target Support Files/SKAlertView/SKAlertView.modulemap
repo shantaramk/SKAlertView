@@ -1,0 +1,6 @@
+framework module SKAlertView {
+  umbrella header "SKAlertView-umbrella.h"
+
+  export *
+  module * { export * }
+}

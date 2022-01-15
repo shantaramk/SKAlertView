@@ -43,9 +43,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6F84F8B75FB6A37FFC9F3553 /* Pods_SKAlertView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKAlertView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D4C6BD3774C0AB7BE7C41A5 /* Pods-SKAlertView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKAlertView_Example.release.xcconfig"; path = "Target Support Files/Pods-SKAlertView_Example/Pods-SKAlertView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A812FE14BBBE4C14869039C5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B2F126A97CB696B5AC656D6F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		DC8374DA613E729DDB274DDE /* SKAlertView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SKAlertView.podspec; path = ../SKAlertView.podspec; sourceTree = "<group>"; };
+		A812FE14BBBE4C14869039C5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B2F126A97CB696B5AC656D6F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DC8374DA613E729DDB274DDE /* SKAlertView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SKAlertView.podspec; path = ../SKAlertView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FAD0B41349947002DB2BB7E6 /* Pods_SKAlertView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKAlertView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -86,7 +86,6 @@
 				34980CDB713349A42D84E0AF /* Pods-SKAlertView_Tests.debug.xcconfig */,
 				5428E78C2BA86E8D3DC9B8B7 /* Pods-SKAlertView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -7,12 +7,19 @@
 //
 
 import UIKit
+import SKAlertView
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        showSKAlert()
+    }
+    
+    func showSKAlert() {
+
+        AlertView(title: "Title", message: "Message", okButtonText: "Okay", cancelButtonText: "Cancel").show(animated: true)
     }
 
     override func didReceiveMemoryWarning() {
