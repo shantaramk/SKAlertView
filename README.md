@@ -12,7 +12,21 @@ SKAlertView is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'SKAlertView'
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+ source 'https://github.com/shantaramk/im_shantaram_spec.git'
+
+target 'AlertViewPodClient' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for AlertViewPodClient
+   pod "SKAlertView",'0.1.1'
+
+
+end
+
 ```
 
 ## Author
