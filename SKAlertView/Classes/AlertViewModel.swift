@@ -7,10 +7,12 @@
 
 import Foundation
 import UIKit
+
 public protocol AlertViewModel {
     
     func show(animated: Bool)
     func dismiss(animated: Bool)
+    func logger(message: String)
     var backgroundView: UIView {get set}
     var containerView: UIView {get set}
 }
@@ -21,6 +23,10 @@ enum AnimationOption: Int {
 }
 
 extension AlertViewModel where Self: UIView {
+    
+    public func logger(message: String) {
+        Logger().logger(message)
+    }
     
     public func show(animated: Bool) {
         self.backgroundView.alpha = 0

@@ -14,6 +14,8 @@
 		4F18511A2793402800467A0D /* AlertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1851162793402800467A0D /* AlertViewModel.swift */; };
 		4F18511B2793402800467A0D /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4F1851172793402800467A0D /* .gitkeep */; };
 		4F18511C2793402800467A0D /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1851182793402800467A0D /* AlertView.swift */; };
+		4F18516C2793F1C100467A0D /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F18516A2793F1C100467A0D /* Logger.m */; };
+		4F18516D2793F1C100467A0D /* Logger.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F18516B2793F1C100467A0D /* Logger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		71701D26EDC3D801F0C86CF2EA1A0959 /* SKAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F294D30F08CD578A0F669021332CDE8A /* SKAlertView-dummy.m */; };
 		7224D2BCBC26A9C7A24F03F2E3F5265E /* Pods-SKAlertView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E290115FA470F065AD559FC9A5CECB86 /* Pods-SKAlertView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCBBC757AF4F29E6A02252899C129790 /* Pods-SKAlertView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 324BF108E1605F8B31F0A7D34C959798 /* Pods-SKAlertView_Example-dummy.m */; };
@@ -49,7 +51,7 @@
 		2EBE45B370AF9AE7F99B360F7A495BA7 /* Pods-SKAlertView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKAlertView_Example-umbrella.h"; sourceTree = "<group>"; };
 		31F4C19007649DAFCF82B080AD021CBE /* Pods-SKAlertView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKAlertView_Tests-Info.plist"; sourceTree = "<group>"; };
 		324BF108E1605F8B31F0A7D34C959798 /* Pods-SKAlertView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKAlertView_Example-dummy.m"; sourceTree = "<group>"; };
-		335259DC8702143BDAB5ED739A8497D0 /* SKAlertView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKAlertView; path = SKAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		335259DC8702143BDAB5ED739A8497D0 /* SKAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SKAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4627B110CE5B3B400F26F715B672F2F6 /* SKAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKAlertView-prefix.pch"; sourceTree = "<group>"; };
 		4863822289C8C9C6FC0E804A37D5D38A /* Pods-SKAlertView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKAlertView_Example-Info.plist"; sourceTree = "<group>"; };
 		495C6EBBA29A7CC2FC263004C9E24ABC /* Pods-SKAlertView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SKAlertView_Example.modulemap"; sourceTree = "<group>"; };
@@ -57,6 +59,8 @@
 		4F1851162793402800467A0D /* AlertViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewModel.swift; sourceTree = "<group>"; };
 		4F1851172793402800467A0D /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		4F1851182793402800467A0D /* AlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		4F18516A2793F1C100467A0D /* Logger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Logger.m; sourceTree = "<group>"; };
+		4F18516B2793F1C100467A0D /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
 		5C808A391CE0732D496998462E1C9D59 /* Pods-SKAlertView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKAlertView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5FEEB8CE39FE62DA26F883D623224D07 /* Pods-SKAlertView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKAlertView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		687E8AC352D8E4515C150C349C88AE37 /* Pods-SKAlertView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKAlertView_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -117,6 +121,7 @@
 		4F1851142793402800467A0D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4F18513D2793EFDB00467A0D /* ObjectiveC */,
 				4F1851152793402800467A0D /* AlertViewProtocal.swift */,
 				4F1851162793402800467A0D /* AlertViewModel.swift */,
 				4F1851182793402800467A0D /* AlertView.swift */,
@@ -124,6 +129,15 @@
 			);
 			name = Classes;
 			path = SKAlertView/Classes;
+			sourceTree = "<group>";
+		};
+		4F18513D2793EFDB00467A0D /* ObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				4F18516B2793F1C100467A0D /* Logger.h */,
+				4F18516A2793F1C100467A0D /* Logger.m */,
+			);
+			path = ObjectiveC;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -165,7 +179,7 @@
 			children = (
 				02E2B7A0DAAD73CA8442F5DF012F9369 /* Pods-SKAlertView_Example */,
 				D23C0773442B4FC332D579D1A1BA0C38 /* Pods-SKAlertView_Tests */,
-				335259DC8702143BDAB5ED739A8497D0 /* SKAlertView */,
+				335259DC8702143BDAB5ED739A8497D0 /* SKAlertView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -265,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30B67481B2E577F1588E8CE907110E5A /* SKAlertView-umbrella.h in Headers */,
+				4F18516D2793F1C100467A0D /* Logger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +301,7 @@
 			);
 			name = SKAlertView;
 			productName = SKAlertView;
-			productReference = 335259DC8702143BDAB5ED739A8497D0 /* SKAlertView */;
+			productReference = 335259DC8702143BDAB5ED739A8497D0 /* SKAlertView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BA0EC315DEA8CFC512AC4413C7005967 /* Pods-SKAlertView_Example */ = {
@@ -398,6 +413,7 @@
 				4F18511C2793402800467A0D /* AlertView.swift in Sources */,
 				71701D26EDC3D801F0C86CF2EA1A0959 /* SKAlertView-dummy.m in Sources */,
 				4F1851192793402800467A0D /* AlertViewProtocal.swift in Sources */,
+				4F18516C2793F1C100467A0D /* Logger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,6 +578,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D561F9DD600AA906A11CF83F40AC4A18 /* SKAlertView.release.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -581,6 +598,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -593,6 +611,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9AB52E7CAF26F35842521FDA5E24159B /* SKAlertView.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -612,6 +631,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";

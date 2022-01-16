@@ -10,7 +10,7 @@
 #endif
 #endif
 
-
+#import "Logger.h"
 FOUNDATION_EXPORT double SKAlertViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char SKAlertViewVersionString[];
 

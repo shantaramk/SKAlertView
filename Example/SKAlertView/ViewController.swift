@@ -19,7 +19,9 @@ class ViewController: UIViewController {
     
     func showSKAlert() {
 
-        AlertView(title: "Title", message: "Message", okButtonText: "Okay", cancelButtonText: "Cancel").show(animated: true)
+        let alerView = AlertView(title: "Title", message: "Message", okButtonText: "Okay", cancelButtonText: "Cancel")
+        alerView.logger(message: "Logger")
+        alerView.show(animated: true)
     }
 
     override func didReceiveMemoryWarning() {
